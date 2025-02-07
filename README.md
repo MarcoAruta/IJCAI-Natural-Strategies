@@ -78,5 +78,14 @@ On the other hand, you can reduce the number of atomic propositions by removing 
 
 Some testing functions (such as randomizeFormula) have been left for the user to facilitate these adjustments.
 
+3.5: OTHER CONSIDERATIONS
+
+Some testing functions (such as randomizeFormula) have been left for the user to facilitate these adjustments.
+
 For instance, to use randomizeFormula, go to the function initialize() inside the strategies.py file and look for the Testing commented section. Remember to modify the path, also adding your final destination for the formula that will be generated (this file can be empty at the beginning).
 
+Note: Unknown_transition can remain unchanged as it will be useful for the VITAMIN environment, not here.
+
+Logistic Robot real world model and formulas are included in their respective Memoryless and Recall-based Testing Directories.
+
+Thanks!
