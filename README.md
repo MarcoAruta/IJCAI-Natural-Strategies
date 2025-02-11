@@ -5,7 +5,7 @@ This guide teaches the user how to use a local NatATL model checking tools, sepa
 HOW TO SUCCESSFULLY RUN YOUR CODE
 Preliminary Step: DOWNLOAD ALL NECESSARY LIBRARIES
 
-The user should execute the project in a Python environment that supports some existing libraries used in it, such as NumPy, BinaryTree, etc. Download them if they are not already installed.
+The user should download a project version (between memoryless and recall-based), extract the main folder and execute the project in a Python environment that supports some existing libraries used in it, such as NumPy, BinaryTree, etc. Download them if they are not already installed.
 
 1.1: INPUT FILES
 
