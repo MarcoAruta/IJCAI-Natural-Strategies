@@ -1,6 +1,6 @@
-Welcome to NatATL model checking Guide:
+Welcome to S4H Tool Guide:
 
-This guide teaches the user how to use a local NatATL model checking tools, separately from VITAMIN (that is easly accessible following the link explicited inside the paper), where they are also implemented. Download and extract the project from the zip file and follow the steps carefully to execute them correctly (they are presented as two different project folders located at the same readme.txt path).
+This guide teaches the user how to use S4H tools. Download and extract the project from the zip file and follow the steps carefully to execute them correctly.
 
 HOW TO SUCCESSFULLY RUN YOUR CODE
 Preliminary Step: DOWNLOAD ALL NECESSARY LIBRARIES
@@ -15,9 +15,13 @@ We strongly recommend you to begin with these files to understand the whole proc
 
 To successfully run the entire project, you will need to modify the following paths:
 
-path = 'C:\\Users\\utente\\Desktop\\TESTING\\Exists next with n agents\\testing11\\exampleModel1.txt'
-formula = 'C:\\Users\\utente\\Desktop\\TESTING\\Exists next with n agents\\testing11\\exampleFormula1.txt'
-result = 'C:\\Users\\utente\\Desktop\\TESTING\\Exists next with n agents\\testing11\\Result.txt'
+model = ''C:\\Users\\utente\\Desktop\\s4h\\RecallNatATL\\Testing\\LogisticRobot.txt'
+formula = ''C:\\Users\\utente\\Desktop\\s4h\\RecallNatATL\\Testing\\formulaNatATL.txt'
+result = ''C:\\Users\\utente\\Desktop\\s4h\\RecallNatATL\\Testing\\Result.txt'
+atlformula = 'C:\\Users\\utente\\Desktop\\s4h\\RecallNatATL\\Testing\\formulaATL.txt'
+
+Representing respectively the input model, the formula intended in NatATL syntax, a result file where save the results obtained and write the synthetized winning strategy, and the corresponding atl formula for pre-processing phase.
+
 These can be found inside the main.py file and must be replaced with the absolute paths of the files you download from the TESTING folder to your local computer.
 
 Additionally, you have to modify the absolute path for the prunedModel file, which can be found at the beginning of the pruning.py file.
@@ -83,8 +87,6 @@ Some testing functions (such as randomizeFormula) have been left for the user to
 Some testing functions (such as randomizeFormula) have been left for the user to facilitate these adjustments.
 
 For instance, to use randomizeFormula, go to the function initialize() inside the strategies.py file and look for the Testing commented section. Remember to modify the path, also adding your final destination for the formula that will be generated (this file can be empty at the beginning).
-
-Note: Unknown_transition can remain unchanged as it will be useful for the VITAMIN environment, not here.
 
 Logistic Robot real world model and formulas are included in their respective Memoryless and Recall-based Testing Directories.
 
